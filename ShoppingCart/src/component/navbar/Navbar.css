@@ -1,0 +1,70 @@
+.cart-badge {
+  background: #ff5252;
+  color: #fff;
+  border-radius: 50%;
+  padding: 0.2em 0.6em;
+  font-size: 0.9em;
+  margin-left: 6px;
+  font-weight: 700;
+  vertical-align: middle;
+  box-shadow: 0 1px 4px #1976d220;
+  display: inline-block;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #1976d2 60%, #42a5f5 100%);
+  color: #fff;
+  padding: 1.2rem 2.5rem;
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.08);
+  border-radius: 0 0 18px 18px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links a,
+.navbar-links .active {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.15rem;
+  padding: 0.4rem 1.1rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links a:hover,
+.navbar-links .active {
+  background: #fff;
+  color: #1976d2;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.10);
+}
+
+.cart-icon {
+  margin-left: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.navbar-content {
+  background: #f5f7fa;
+  min-height: 70vh;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(25, 118, 210, 0.04);
+}
